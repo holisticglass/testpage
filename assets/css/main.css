@@ -1,10 +1,9 @@
 /*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
+ * URL: http://holisticglass.com
  *
- * Project Name: SPOT - Free Bootstrap 3 Theme
+ * Bootstrap 3 Theme
  * Version: 1.0
- * URL: http://blacktie.co
+ * 
  */
  
 /* FONTS */
@@ -133,7 +132,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
+	background: url(../img/header-bg_hl.jpg) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -159,14 +158,15 @@ a:after {
 	font-size: 70px;
 	font-weight: 300;
 	letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 #headerwrap h2 {
-	color: white;
+	color: black;
 	font-size: 40px;
 	font-weight: 700;
 	letter-spacing: 2px;
-	text-transform: uppercase;
+	/*text-transform: uppercase; */
 }
 
 /* Dark Grey Wrap */
